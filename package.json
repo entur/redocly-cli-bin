@@ -1,0 +1,13 @@
+{
+  "name": "redocly-cli-bin",
+  "version": "1.0.0",
+  "bin": "node_modules/@redocly/cli/bin/cli.js",
+  "type": "module",
+  "scripts": {
+    "build": "pkg . --targets node24-linux-x64 -o bin/redocly-cli-bin_linux-x64 -C Zstd"
+  },
+  "dependencies": {
+    "@redocly/cli": "2.39.0",
+    "@yao-pkg/pkg": "6.21.0"
+  }
+}
