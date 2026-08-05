@@ -7,7 +7,7 @@
     "build": "pkg . --targets node24-linux-x64 -o bin/redocly-cli-bin_linux-x64 -C Zstd"
   },
   "dependencies": {
-    "@redocly/cli": "2.39.0",
+    "@redocly/cli": "2.40.0",
     "@yao-pkg/pkg": "6.21.0"
   }
 }
