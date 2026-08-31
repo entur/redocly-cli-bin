@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/entur/redocly-cli-bin/compare/v1.1.0...v1.2.0) (2026-08-31)
+
+
+### Features
+
+* **deps:** Bump the minor-updates group with 2 updates ([#8](https://github.com/entur/redocly-cli-bin/issues/8)) ([45cd306](https://github.com/entur/redocly-cli-bin/commit/45cd306966582fc540f693989fb0cfabea34d41d))
+
 ## [1.1.0](https://github.com/entur/redocly-cli-bin/compare/v1.0.0...v1.1.0) (2026-08-05)
 
 

@@ -1,6 +1,6 @@
 {
   "name": "redocly-cli-bin",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "bin": "node_modules/@redocly/cli/bin/cli.js",
   "type": "module",
   "scripts": {
