@@ -1,13 +1,16 @@
 {
   "name": "redocly-cli-bin",
   "version": "1.2.0",
-  "bin": "node_modules/@redocly/cli/bin/cli.js",
+  "bin": "dist/redocly-cli.js",
   "type": "module",
   "scripts": {
-    "build": "pkg . --targets node24-linux-x64 -o bin/redocly-cli-bin_linux-x64 -C Zstd"
+    "bundle": "esbuild node_modules/@redocly/cli/bin/cli.js --platform=node --target=node24 --format=esm --bundle --outfile=dist/redocly-cli.js",
+    "package": "pkg . --targets node24-linux-x64 -o bin/redocly-cli-bin_linux-x64 -C Zstd",
+    "build": "npm run bundle && npm run package"
   },
   "dependencies": {
-    "@redocly/cli": "2.43.2",
-    "@yao-pkg/pkg": "6.22.0"
+    "esbuild": "0.28.2",
+    "@redocly/cli": "2.57.0",
+    "@yao-pkg/pkg": "6.23.0"
   }
 }
