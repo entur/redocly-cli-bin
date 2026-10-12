@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/entur/redocly-cli-bin/compare/v1.2.0...v1.3.0) (2026-10-12)
+
+
+### Features
+
+* **deps:** Bump undici from 7.29.0 to 7.30.0 ([#11](https://github.com/entur/redocly-cli-bin/issues/11)) ([0acf0ff](https://github.com/entur/redocly-cli-bin/commit/0acf0ffe64439d9b4eba188f4d4230ea166ad5f3))
+
+
+### Bug Fixes
+
+* Run esbuild bundling before packaging ([#13](https://github.com/entur/redocly-cli-bin/issues/13)) ([4cd9213](https://github.com/entur/redocly-cli-bin/commit/4cd921310d937d6f82148e6bac81179007fbce1f))
+
 ## [1.2.0](https://github.com/entur/redocly-cli-bin/compare/v1.1.0...v1.2.0) (2026-08-31)
 
 
