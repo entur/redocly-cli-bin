@@ -37,12 +37,3 @@ updates:
         - "typescript"
 
     open-pull-requests-limit: 10
-    groups:
-      Minor-Updates:
-        applies-to: version-updates
-        update-types:
-          - "minor"
-          - "patch"
-        exclude-patterns:
-          - "@redocly/cli"
-          - "@entur/*"
