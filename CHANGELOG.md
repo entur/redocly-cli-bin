@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.4.0](https://github.com/entur/redocly-cli-bin/compare/v1.3.0...v1.4.0) (2026-11-02)
+
+
+### Features
+
+* **deps:** Bump @redocly/cli from 2.57.0 to 2.71.0 ([#19](https://github.com/entur/redocly-cli-bin/issues/19)) ([1c23c52](https://github.com/entur/redocly-cli-bin/commit/1c23c520812201109407f868e7d175001d830267))
+* **deps:** Bump @yao-pkg/pkg from 6.23.0 to 6.24.0 ([#21](https://github.com/entur/redocly-cli-bin/issues/21)) ([88a2f68](https://github.com/entur/redocly-cli-bin/commit/88a2f682f5642ef22515bf235cdeced78c0aee10))
+* **deps:** Bump undici from 7.30.0 to 7.30.1 ([#17](https://github.com/entur/redocly-cli-bin/issues/17)) ([92f3362](https://github.com/entur/redocly-cli-bin/commit/92f3362c354425ef3d306ab18bfb6c870c2e1dc3))
+
 ## [1.3.0](https://github.com/entur/redocly-cli-bin/compare/v1.2.0...v1.3.0) (2026-10-12)
 
 
