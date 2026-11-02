@@ -11,6 +11,6 @@
   "dependencies": {
     "esbuild": "0.28.2",
     "@redocly/cli": "2.71.0",
-    "@yao-pkg/pkg": "6.23.0"
+    "@yao-pkg/pkg": "6.24.0"
   }
 }
