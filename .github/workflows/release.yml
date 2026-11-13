@@ -3,16 +3,15 @@ on:
   push:
     branches:
       - main
-permissions:
-  pull-requests: write
-  contents: write
-  issues: write
 jobs:
   release:
     uses: entur/gha-meta/.github/workflows/release.yml@v1
+    permissions:
+      pull-requests: write
+      contents: write
+      issues: write
     with:
       release_type: node
-
   create-executable:
     needs: release
     if: needs.release.outputs.releases_created == 'true'
